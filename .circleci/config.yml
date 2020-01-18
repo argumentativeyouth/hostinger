@@ -20,7 +20,7 @@ workflows:
             ssh $SSH_USER@$SSH_HOST "<remote deploy command>"
 
 workflows:
-  version: 2
+  version: 2.1
   build-and-deploy:
     jobs:
       - build
